@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+
+    double a, b, S, P;
+
+    std::cout << "a: ";
+    std::cin >> a;
+    
+    std::cout << "b: ";
+    std::cin >> b;
+
+    S = a * b;
+    P = 2 * (a + b);
+
+    std::cout << "(S) = " << S << std::endl;
+    std::cout << "(P) = " << P << std::endl;
+
+    return 0;
+}
